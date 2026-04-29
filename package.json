@@ -1,5 +1,14 @@
 {
   "name": "rhyno-automation-sync",
   "version": "1.0.0",
-  "description": "rhyno-automation-sync"
+  "description": "rhyno-automation-sync",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  }
 }
